@@ -1,0 +1,23 @@
+{
+  "name": "auth0-cli-apps",
+  "version": "1.0.0",
+  "description": "sample for auth0 authentication for cli and apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auth0",
+    "cli",
+    "pkce"
+  ],
+  "author": "zulfiqar@auth0.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "opn": "^4.0.2",
+    "request-promise": "^3.0.0"
+  }
+}
